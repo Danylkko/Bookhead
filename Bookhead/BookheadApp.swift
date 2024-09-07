@@ -11,7 +11,12 @@ import SwiftUI
 struct BookheadApp: App {
     var body: some Scene {
         WindowGroup {
-            PlayerTabsView()
+            PlayerTabsView(
+                store: .init(
+                    initialState: .initial,
+                    reducer: { AppFeature() }
+                )
+            )
         }
     }
 }

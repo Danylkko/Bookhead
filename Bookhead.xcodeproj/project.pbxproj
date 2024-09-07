@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790209472C8DA9F400D9B3BA /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790209462C8DA9F400D9B3BA /* StorageService.swift */; };
+		790209492C8DACF900D9B3BA /* PlaybackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790209482C8DACF900D9B3BA /* PlaybackService.swift */; };
+		7902094B2C8DAE5A00D9B3BA /* BHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7902094A2C8DAE5A00D9B3BA /* BHError.swift */; };
+		7902094E2C8DB4A600D9B3BA /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 7902094D2C8DB4A600D9B3BA /* ComposableArchitecture */; };
+		790209502C8DB4C400D9B3BA /* PlayerFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7902094F2C8DB4C400D9B3BA /* PlayerFeature.swift */; };
+		790209522C8E284E00D9B3BA /* PlaybackControlStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790209512C8E284E00D9B3BA /* PlaybackControlStyle.swift */; };
+		790209572C8E31F400D9B3BA /* We Will Rock You (Remastered) - Queen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 790209542C8E306800D9B3BA /* We Will Rock You (Remastered) - Queen.m4a */; };
+		7902095B2C8E322600D9B3BA /* Небо - SadSvit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7902095A2C8E321E00D9B3BA /* Небо - SadSvit.m4a */; };
+		7902095C2C8E322900D9B3BA /* Силуети - SadSvit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 790209562C8E307500D9B3BA /* Силуети - SadSvit.m4a */; };
+		7902095E2C8E707D00D9B3BA /* AudioResourceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7902095D2C8E707D00D9B3BA /* AudioResourceService.swift */; };
+		7931B97B2C8C4779007CE8ED /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B97A2C8C4779007CE8ED /* GlobalConstants.swift */; };
+		7931B97D2C8C4FB9007CE8ED /* SwiftUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B97C2C8C4FB9007CE8ED /* SwiftUISlider.swift */; };
+		7931B97F2C8C543A007CE8ED /* PlaybackControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B97E2C8C543A007CE8ED /* PlaybackControlView.swift */; };
+		7931B9812C8C7EAF007CE8ED /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B9802C8C7EAF007CE8ED /* Fonts.swift */; };
+		7931B9832C8C834A007CE8ED /* PlaybackSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B9822C8C834A007CE8ED /* PlaybackSpeed.swift */; };
+		7931B9882C8C922C007CE8ED /* PlaybackControlItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B9872C8C922C007CE8ED /* PlaybackControlItem.swift */; };
+		7931B98B2C8C9260007CE8ED /* SwiftUISlider+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B98A2C8C9260007CE8ED /* SwiftUISlider+Modifiers.swift */; };
+		7931B98D2C8C9581007CE8ED /* AssetColorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B98C2C8C9581007CE8ED /* AssetColorProtocol.swift */; };
+		7931B98F2C8C9668007CE8ED /* Double+MinutesSeconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B98E2C8C9668007CE8ED /* Double+MinutesSeconds.swift */; };
+		795E1EDC2C8EA0C700A6801B /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795E1EDB2C8EA0C700A6801B /* AppFeature.swift */; };
+		795E1EDE2C8EA0F700A6801B /* PlaybackFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795E1EDD2C8EA0F700A6801B /* PlaybackFeature.swift */; };
 		79C9DA822C882DD200D32078 /* BookheadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DA812C882DD200D32078 /* BookheadApp.swift */; };
 		79C9DA842C882DD200D32078 /* PlayerTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DA832C882DD200D32078 /* PlayerTabsView.swift */; };
 		79C9DA862C882DD300D32078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C9DA852C882DD300D32078 /* Assets.xcassets */; };
@@ -14,12 +35,12 @@
 		79C9DA932C882DD300D32078 /* BookheadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DA922C882DD300D32078 /* BookheadTests.swift */; };
 		79C9DA9D2C882DD300D32078 /* BookheadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DA9C2C882DD300D32078 /* BookheadUITests.swift */; };
 		79C9DA9F2C882DD300D32078 /* BookheadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DA9E2C882DD300D32078 /* BookheadUITestsLaunchTests.swift */; };
-		79C9DAAD2C882E9300D32078 /* Color+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DAAC2C882E9300D32078 /* Color+CustomColors.swift */; };
+		79C9DAAD2C882E9300D32078 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DAAC2C882E9300D32078 /* AppColor.swift */; };
 		79C9DAB02C88480200D32078 /* PlayerTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DAAF2C88480200D32078 /* PlayerTabItemView.swift */; };
 		79C9DAB22C88482900D32078 /* PlayerTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DAB12C88482900D32078 /* PlayerTabBarView.swift */; };
 		79C9DAB42C88488500D32078 /* PlayerTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DAB32C88488500D32078 /* PlayerTabs.swift */; };
 		79C9DAB62C88500900D32078 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DAB52C88500900D32078 /* PlayerView.swift */; };
-		79C9DABA2C8850A300D32078 /* PlaybackListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DAB92C8850A300D32078 /* PlaybackListView.swift */; };
+		79C9DABA2C8850A300D32078 /* PlayerTextTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DAB92C8850A300D32078 /* PlayerTextTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +61,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790209462C8DA9F400D9B3BA /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		790209482C8DACF900D9B3BA /* PlaybackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackService.swift; sourceTree = "<group>"; };
+		7902094A2C8DAE5A00D9B3BA /* BHError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BHError.swift; sourceTree = "<group>"; };
+		7902094F2C8DB4C400D9B3BA /* PlayerFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFeature.swift; sourceTree = "<group>"; };
+		790209512C8E284E00D9B3BA /* PlaybackControlStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlStyle.swift; sourceTree = "<group>"; };
+		790209542C8E306800D9B3BA /* We Will Rock You (Remastered) - Queen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We Will Rock You (Remastered) - Queen.m4a"; sourceTree = "<group>"; };
+		790209562C8E307500D9B3BA /* Силуети - SadSvit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Силуети - SadSvit.m4a"; path = "../../../../Downloads/Силуети - SadSvit.m4a"; sourceTree = "<group>"; };
+		7902095A2C8E321E00D9B3BA /* Небо - SadSvit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Небо - SadSvit.m4a"; sourceTree = "<group>"; };
+		7902095D2C8E707D00D9B3BA /* AudioResourceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioResourceService.swift; sourceTree = "<group>"; };
+		7931B97A2C8C4779007CE8ED /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		7931B97C2C8C4FB9007CE8ED /* SwiftUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISlider.swift; sourceTree = "<group>"; };
+		7931B97E2C8C543A007CE8ED /* PlaybackControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlView.swift; sourceTree = "<group>"; };
+		7931B9802C8C7EAF007CE8ED /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		7931B9822C8C834A007CE8ED /* PlaybackSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackSpeed.swift; sourceTree = "<group>"; };
+		7931B9872C8C922C007CE8ED /* PlaybackControlItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlItem.swift; sourceTree = "<group>"; };
+		7931B98A2C8C9260007CE8ED /* SwiftUISlider+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUISlider+Modifiers.swift"; sourceTree = "<group>"; };
+		7931B98C2C8C9581007CE8ED /* AssetColorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetColorProtocol.swift; sourceTree = "<group>"; };
+		7931B98E2C8C9668007CE8ED /* Double+MinutesSeconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+MinutesSeconds.swift"; sourceTree = "<group>"; };
+		795E1EDB2C8EA0C700A6801B /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		795E1EDD2C8EA0F700A6801B /* PlaybackFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackFeature.swift; sourceTree = "<group>"; };
 		79C9DA7E2C882DD200D32078 /* Bookhead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookhead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C9DA812C882DD200D32078 /* BookheadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookheadApp.swift; sourceTree = "<group>"; };
 		79C9DA832C882DD200D32078 /* PlayerTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTabsView.swift; sourceTree = "<group>"; };
@@ -50,12 +91,12 @@
 		79C9DA982C882DD300D32078 /* BookheadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookheadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C9DA9C2C882DD300D32078 /* BookheadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookheadUITests.swift; sourceTree = "<group>"; };
 		79C9DA9E2C882DD300D32078 /* BookheadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookheadUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		79C9DAAC2C882E9300D32078 /* Color+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CustomColors.swift"; sourceTree = "<group>"; };
+		79C9DAAC2C882E9300D32078 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		79C9DAAF2C88480200D32078 /* PlayerTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTabItemView.swift; sourceTree = "<group>"; };
 		79C9DAB12C88482900D32078 /* PlayerTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTabBarView.swift; sourceTree = "<group>"; };
 		79C9DAB32C88488500D32078 /* PlayerTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTabs.swift; sourceTree = "<group>"; };
 		79C9DAB52C88500900D32078 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
-		79C9DAB92C8850A300D32078 /* PlaybackListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackListView.swift; sourceTree = "<group>"; };
+		79C9DAB92C8850A300D32078 /* PlayerTextTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTextTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7902094E2C8DB4A600D9B3BA /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +125,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790209532C8E304900D9B3BA /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				790209542C8E306800D9B3BA /* We Will Rock You (Remastered) - Queen.m4a */,
+				7902095A2C8E321E00D9B3BA /* Небо - SadSvit.m4a */,
+				790209562C8E307500D9B3BA /* Силуети - SadSvit.m4a */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		7931B9842C8C9196007CE8ED /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				790209512C8E284E00D9B3BA /* PlaybackControlStyle.swift */,
+				7931B9862C8C9218007CE8ED /* PlaybackControl */,
+				7931B9892C8C9246007CE8ED /* SwiftUISlider */,
+				7931B9852C8C91E9007CE8ED /* TabBar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7931B9852C8C91E9007CE8ED /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				79C9DAB32C88488500D32078 /* PlayerTabs.swift */,
+				79C9DAAF2C88480200D32078 /* PlayerTabItemView.swift */,
+				79C9DAB12C88482900D32078 /* PlayerTabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7931B9862C8C9218007CE8ED /* PlaybackControl */ = {
+			isa = PBXGroup;
+			children = (
+				7931B97E2C8C543A007CE8ED /* PlaybackControlView.swift */,
+				7931B9872C8C922C007CE8ED /* PlaybackControlItem.swift */,
+			);
+			path = PlaybackControl;
+			sourceTree = "<group>";
+		};
+		7931B9892C8C9246007CE8ED /* SwiftUISlider */ = {
+			isa = PBXGroup;
+			children = (
+				7931B97C2C8C4FB9007CE8ED /* SwiftUISlider.swift */,
+				7931B98A2C8C9260007CE8ED /* SwiftUISlider+Modifiers.swift */,
+			);
+			path = SwiftUISlider;
+			sourceTree = "<group>";
+		};
+		795E1EDF2C8EA17200A6801B /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				79C9DAB52C88500900D32078 /* PlayerView.swift */,
+				7902094F2C8DB4C400D9B3BA /* PlayerFeature.swift */,
+				795E1EDD2C8EA0F700A6801B /* PlaybackFeature.swift */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
 		79C9DA752C882DD200D32078 = {
 			isa = PBXGroup;
 			children = (
@@ -106,11 +207,20 @@
 		79C9DA802C882DD200D32078 /* Bookhead */ = {
 			isa = PBXGroup;
 			children = (
+				790209532C8E304900D9B3BA /* SampleData */,
 				79C9DA812C882DD200D32078 /* BookheadApp.swift */,
-				79C9DAAE2C8847DE00D32078 /* PlayerScreen */,
+				795E1EDB2C8EA0C700A6801B /* AppFeature.swift */,
+				79C9DAAE2C8847DE00D32078 /* PlayerTabs */,
+				7931B9842C8C9196007CE8ED /* Components */,
 				79C9DAAB2C882E6000D32078 /* Extensions */,
 				79C9DA852C882DD300D32078 /* Assets.xcassets */,
 				79C9DA872C882DD300D32078 /* Preview Content */,
+				7931B9822C8C834A007CE8ED /* PlaybackSpeed.swift */,
+				790209462C8DA9F400D9B3BA /* StorageService.swift */,
+				790209482C8DACF900D9B3BA /* PlaybackService.swift */,
+				7931B97A2C8C4779007CE8ED /* GlobalConstants.swift */,
+				7902094A2C8DAE5A00D9B3BA /* BHError.swift */,
+				7902095D2C8E707D00D9B3BA /* AudioResourceService.swift */,
 			);
 			path = Bookhead;
 			sourceTree = "<group>";
@@ -143,22 +253,22 @@
 		79C9DAAB2C882E6000D32078 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				79C9DAAC2C882E9300D32078 /* Color+CustomColors.swift */,
+				7931B98C2C8C9581007CE8ED /* AssetColorProtocol.swift */,
+				79C9DAAC2C882E9300D32078 /* AppColor.swift */,
+				7931B9802C8C7EAF007CE8ED /* Fonts.swift */,
+				7931B98E2C8C9668007CE8ED /* Double+MinutesSeconds.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		79C9DAAE2C8847DE00D32078 /* PlayerScreen */ = {
+		79C9DAAE2C8847DE00D32078 /* PlayerTabs */ = {
 			isa = PBXGroup;
 			children = (
 				79C9DA832C882DD200D32078 /* PlayerTabsView.swift */,
-				79C9DAB52C88500900D32078 /* PlayerView.swift */,
-				79C9DAB92C8850A300D32078 /* PlaybackListView.swift */,
-				79C9DAAF2C88480200D32078 /* PlayerTabItemView.swift */,
-				79C9DAB12C88482900D32078 /* PlayerTabBarView.swift */,
-				79C9DAB32C88488500D32078 /* PlayerTabs.swift */,
+				795E1EDF2C8EA17200A6801B /* PlayerView */,
+				79C9DAB92C8850A300D32078 /* PlayerTextTab.swift */,
 			);
-			path = PlayerScreen;
+			path = PlayerTabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +287,9 @@
 			dependencies = (
 			);
 			name = Bookhead;
+			packageProductDependencies = (
+				7902094D2C8DB4A600D9B3BA /* ComposableArchitecture */,
+			);
 			productName = Bookhead;
 			productReference = 79C9DA7E2C882DD200D32078 /* Bookhead.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +362,9 @@
 				Base,
 			);
 			mainGroup = 79C9DA752C882DD200D32078;
+			packageReferences = (
+				7902094C2C8DB4A600D9B3BA /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 79C9DA7F2C882DD200D32078 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,6 +381,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7902095C2C8E322900D9B3BA /* Силуети - SadSvit.m4a in Resources */,
+				7902095B2C8E322600D9B3BA /* Небо - SadSvit.m4a in Resources */,
+				790209572C8E31F400D9B3BA /* We Will Rock You (Remastered) - Queen.m4a in Resources */,
 				79C9DA892C882DD300D32078 /* Preview Assets.xcassets in Resources */,
 				79C9DA862C882DD300D32078 /* Assets.xcassets in Resources */,
 			);
@@ -291,14 +410,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790209522C8E284E00D9B3BA /* PlaybackControlStyle.swift in Sources */,
+				7902095E2C8E707D00D9B3BA /* AudioResourceService.swift in Sources */,
+				790209492C8DACF900D9B3BA /* PlaybackService.swift in Sources */,
+				7931B9832C8C834A007CE8ED /* PlaybackSpeed.swift in Sources */,
+				7931B9812C8C7EAF007CE8ED /* Fonts.swift in Sources */,
+				795E1EDC2C8EA0C700A6801B /* AppFeature.swift in Sources */,
+				795E1EDE2C8EA0F700A6801B /* PlaybackFeature.swift in Sources */,
 				79C9DAB42C88488500D32078 /* PlayerTabs.swift in Sources */,
+				7902094B2C8DAE5A00D9B3BA /* BHError.swift in Sources */,
+				7931B98B2C8C9260007CE8ED /* SwiftUISlider+Modifiers.swift in Sources */,
+				7931B98D2C8C9581007CE8ED /* AssetColorProtocol.swift in Sources */,
 				79C9DAB22C88482900D32078 /* PlayerTabBarView.swift in Sources */,
 				79C9DAB62C88500900D32078 /* PlayerView.swift in Sources */,
+				790209472C8DA9F400D9B3BA /* StorageService.swift in Sources */,
 				79C9DAB02C88480200D32078 /* PlayerTabItemView.swift in Sources */,
 				79C9DA842C882DD200D32078 /* PlayerTabsView.swift in Sources */,
 				79C9DA822C882DD200D32078 /* BookheadApp.swift in Sources */,
-				79C9DAAD2C882E9300D32078 /* Color+CustomColors.swift in Sources */,
-				79C9DABA2C8850A300D32078 /* PlaybackListView.swift in Sources */,
+				7931B97F2C8C543A007CE8ED /* PlaybackControlView.swift in Sources */,
+				790209502C8DB4C400D9B3BA /* PlayerFeature.swift in Sources */,
+				79C9DAAD2C882E9300D32078 /* AppColor.swift in Sources */,
+				7931B97D2C8C4FB9007CE8ED /* SwiftUISlider.swift in Sources */,
+				79C9DABA2C8850A300D32078 /* PlayerTextTab.swift in Sources */,
+				7931B97B2C8C4779007CE8ED /* GlobalConstants.swift in Sources */,
+				7931B98F2C8C9668007CE8ED /* Double+MinutesSeconds.swift in Sources */,
+				7931B9882C8C922C007CE8ED /* PlaybackControlItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +764,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7902094C2C8DB4A600D9B3BA /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7902094D2C8DB4A600D9B3BA /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7902094C2C8DB4A600D9B3BA /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79C9DA762C882DD200D32078 /* Project object */;
 }

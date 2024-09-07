@@ -1,26 +1,24 @@
 //
-//  Color+CustomColors.swift
+//  AppColor.swift
 //  Bookhead
 //
 //  Created by Danylo Litvinchuk on 04.09.2024.
 //
 
-import SwiftUI
+import Foundation
 
 enum AppColor: String {
     case playerBackgroundColor
     case tabItemAccentForegroundColor
     case tabItemAccentBackgroundColor
+    case grayButtonBackgroundColor
+    case grayTextColor
+    case playbackSliderTintColor
+    case controlButtonUnderlyingColor
+    case iconMainTintColor
+    case blackTextColor
 }
 
 extension AppColor: AssetColorProtocol { }
 
-protocol AssetColorProtocol {
-    var rawValue: String { get }
-}
 
-extension AssetColorProtocol {
-    var color: Color {
-        return Color(rawValue, bundle: nil)
-    }
-}

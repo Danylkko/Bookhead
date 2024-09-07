@@ -24,5 +24,9 @@ struct PlayerTabBarView: View {
         }
         .background(Color.white)
         .clipShape(RoundedRectangle(cornerRadius: 30))
+        .overlay {
+            RoundedRectangle(cornerRadius: 31)
+                .stroke(Color.gray, lineWidth: 0.5)
+        }
     }
 }
