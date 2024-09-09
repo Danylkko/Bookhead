@@ -15,7 +15,6 @@
 		790209522C8E284E00D9B3BA /* PlaybackControlStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790209512C8E284E00D9B3BA /* PlaybackControlStyle.swift */; };
 		790209572C8E31F400D9B3BA /* We Will Rock You (Remastered) - Queen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 790209542C8E306800D9B3BA /* We Will Rock You (Remastered) - Queen.m4a */; };
 		7902095B2C8E322600D9B3BA /* Небо - SadSvit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7902095A2C8E321E00D9B3BA /* Небо - SadSvit.m4a */; };
-		7902095C2C8E322900D9B3BA /* Силуети - SadSvit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 790209562C8E307500D9B3BA /* Силуети - SadSvit.m4a */; };
 		7902095E2C8E707D00D9B3BA /* AudioResourceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7902095D2C8E707D00D9B3BA /* AudioResourceService.swift */; };
 		7931B97B2C8C4779007CE8ED /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B97A2C8C4779007CE8ED /* GlobalConstants.swift */; };
 		7931B97D2C8C4FB9007CE8ED /* SwiftUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B97C2C8C4FB9007CE8ED /* SwiftUISlider.swift */; };
@@ -28,6 +27,7 @@
 		7931B98F2C8C9668007CE8ED /* Double+MinutesSeconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931B98E2C8C9668007CE8ED /* Double+MinutesSeconds.swift */; };
 		795E1EDC2C8EA0C700A6801B /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795E1EDB2C8EA0C700A6801B /* AppFeature.swift */; };
 		795E1EDE2C8EA0F700A6801B /* PlaybackFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795E1EDD2C8EA0F700A6801B /* PlaybackFeature.swift */; };
+		795E1EE12C8F436400A6801B /* Силуети - SadSvit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 795E1EE02C8F436400A6801B /* Силуети - SadSvit.m4a */; };
 		79C9DA822C882DD200D32078 /* BookheadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DA812C882DD200D32078 /* BookheadApp.swift */; };
 		79C9DA842C882DD200D32078 /* PlayerTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9DA832C882DD200D32078 /* PlayerTabsView.swift */; };
 		79C9DA862C882DD300D32078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C9DA852C882DD300D32078 /* Assets.xcassets */; };
@@ -67,7 +67,6 @@
 		7902094F2C8DB4C400D9B3BA /* PlayerFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFeature.swift; sourceTree = "<group>"; };
 		790209512C8E284E00D9B3BA /* PlaybackControlStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlStyle.swift; sourceTree = "<group>"; };
 		790209542C8E306800D9B3BA /* We Will Rock You (Remastered) - Queen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We Will Rock You (Remastered) - Queen.m4a"; sourceTree = "<group>"; };
-		790209562C8E307500D9B3BA /* Силуети - SadSvit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Силуети - SadSvit.m4a"; path = "../../../../Downloads/Силуети - SadSvit.m4a"; sourceTree = "<group>"; };
 		7902095A2C8E321E00D9B3BA /* Небо - SadSvit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Небо - SadSvit.m4a"; sourceTree = "<group>"; };
 		7902095D2C8E707D00D9B3BA /* AudioResourceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioResourceService.swift; sourceTree = "<group>"; };
 		7931B97A2C8C4779007CE8ED /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
@@ -81,6 +80,7 @@
 		7931B98E2C8C9668007CE8ED /* Double+MinutesSeconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+MinutesSeconds.swift"; sourceTree = "<group>"; };
 		795E1EDB2C8EA0C700A6801B /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
 		795E1EDD2C8EA0F700A6801B /* PlaybackFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackFeature.swift; sourceTree = "<group>"; };
+		795E1EE02C8F436400A6801B /* Силуети - SadSvit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Силуети - SadSvit.m4a"; sourceTree = "<group>"; };
 		79C9DA7E2C882DD200D32078 /* Bookhead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookhead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C9DA812C882DD200D32078 /* BookheadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookheadApp.swift; sourceTree = "<group>"; };
 		79C9DA832C882DD200D32078 /* PlayerTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTabsView.swift; sourceTree = "<group>"; };
@@ -128,9 +128,9 @@
 		790209532C8E304900D9B3BA /* SampleData */ = {
 			isa = PBXGroup;
 			children = (
+				795E1EE02C8F436400A6801B /* Силуети - SadSvit.m4a */,
 				790209542C8E306800D9B3BA /* We Will Rock You (Remastered) - Queen.m4a */,
 				7902095A2C8E321E00D9B3BA /* Небо - SadSvit.m4a */,
-				790209562C8E307500D9B3BA /* Силуети - SadSvit.m4a */,
 			);
 			path = SampleData;
 			sourceTree = "<group>";
@@ -381,11 +381,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7902095C2C8E322900D9B3BA /* Силуети - SadSvit.m4a in Resources */,
 				7902095B2C8E322600D9B3BA /* Небо - SadSvit.m4a in Resources */,
 				790209572C8E31F400D9B3BA /* We Will Rock You (Remastered) - Queen.m4a in Resources */,
 				79C9DA892C882DD300D32078 /* Preview Assets.xcassets in Resources */,
 				79C9DA862C882DD300D32078 /* Assets.xcassets in Resources */,
+				795E1EE12C8F436400A6801B /* Силуети - SadSvit.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
